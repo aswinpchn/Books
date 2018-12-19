@@ -4,3 +4,8 @@ a.push(5);
 var b = new Array (); // var b = [];   // The both are same.
 console.log(a);
 console.log(b);
+
+
+var k = {};     // Same as array for objects, var k; // This will say rate is not a property when we try to assign.
+k.rate = 1;
+console.log(k);
