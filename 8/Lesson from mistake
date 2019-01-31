@@ -1,0 +1,9 @@
+See the code from book for input outputs
+All written in model itself.
+
+Loop for number of ships
+generate a ship, it can be horizonatal or vertical
+Check for collision
+
+
+This I took to complete for some 5 days, Fearing about what to do and all. Then I realised that don't see all code and get into details, See the requirements(2)(Highlighted), then write kind of pseudo code for it, then decide function and it's parameters, the code.... Simple.
