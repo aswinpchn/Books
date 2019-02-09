@@ -14,7 +14,11 @@
 
         var images = document.getElementsByTagName("img");
         for (var i = 0; i < images.length; i++) {
-            images[i].onclick = showAnswer;
+            images[i].onmouseover = showAnswer;
+        }
+
+        for (var i = 0; i < images.length; i++) {
+            images[i].onmouseout = reBlur;
         }
     }
     function showAnswer(eventObj) {
@@ -23,13 +27,13 @@
         var imageId = image.id;
         var imageName = imageId + ".jpg";
         image.src = imageName;
-
-        window.setTimeout(reBlur, 2000, image)    
     }
-    function reBlur(image) {
-        var name = image.id;
-        name = name + "blur.jpg";
-        image.src = name;
+    function reBlur(eventObj) {
+        var image = eventObj.target;
+
+        var imageId = image.id;
+        imageName = imageId + "blur.jpg";
+        image.src = imageName;
     }
 </script>
 </head>
