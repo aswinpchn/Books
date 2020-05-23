@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c3fc38d-fbf5-4b32-9f00-544974d75526" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1bkt6WFxwXKMlgOcetSUuBCqBxP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.aswin.Main" />
+      <module name="Java Tutorial for Complete Beginners" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c3fc38d-fbf5-4b32-9f00-544974d75526" name="Default Changelist" comment="" />
+      <created>1589187743175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589187743175</updated>
+      <workItem from="1589187744712" duration="1871000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="244" y="23" key="#Java" timestamp="1589188912057">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="244" y="23" key="#Java/0.23.1440.877/1440.-517.2560.1417@0.23.1440.877" timestamp="1589188912057" />
+    <state x="259" y="63" key="SettingsEditor" timestamp="1589188118640">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="259" y="63" key="SettingsEditor/0.23.1440.877/1440.-517.2560.1417@0.23.1440.877" timestamp="1589188118640" />
+  </component>
+</project>
