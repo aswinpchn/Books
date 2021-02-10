@@ -13,6 +13,9 @@ print(sorted(person1))  # ['age', 'name']. Sorting the keys and returning them a
 print(person1.items())  # dict_items([('name', 'aswin'), ('age', 24)])
 # items method returns a sorted set of key value paris in the Dictionary.
 
+dic = {}
+print(dic)  # {}
+
 for k, v in person1.items():
     print(k, v)
 # The key value pair returned by the items method can be accessed by two

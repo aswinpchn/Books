@@ -9,6 +9,8 @@ print(type(s))  # <class 'dict'>
 
 s = set()  # Creating an empty set is a bit tricky. Empty curly braces {} will make an empty dictionary in Python.
 print(type(s))  # <class 'set'> To make a set without any elements, we use the set() function without any argument.
+print(s)  # set(). You would have thought that this '{}' will be printed, but '{}' is empty dictionary. set() is
+# empty dictionary.
 
 string = 'aswin prasad'
 se = set(string)  # Set constructor accepts an iterable and creates a set out of it.
