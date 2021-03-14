@@ -1,6 +1,9 @@
 import functools
 
+# https://realpython.com/python-map-function/ Nice writeup on Maps.
 
+s = ''
+s.repl
 def is_even(x):
     return x % 2 == 0  # if x is 1, return False. if x is 2, returns True.
 
