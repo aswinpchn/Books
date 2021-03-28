@@ -5,5 +5,6 @@
 
 print(id(5))
 a = 5
-print(id(a))  # both print the same as, they both point to same 5. Remember that this is different from Addresses that
+b = 5
+print(id(a), id(b))  # both print the same as, they both point to same 5. Remember that this is different from Addresses that
 # you see in other languages, so at first this may seem wierd.

@@ -48,7 +48,19 @@ print(s)
 # a new entry is created. The type of this new entry is given by the argument of defaultdict.
 # https://stackoverflow.com/questions/5900578/how-does-collections-defaultdict-work
 
-d = defaultdict(list)  # In this default dict, it we access a key that is not there, an empty list get created to that
-# key.
+d = defaultdict(list)  # In this default dict, it we access a key that is not there, an empty list created to that
+# because we are sending list a parameter.
 print(d[0])  # []  an empty list is being created even if the key is not in the dictionary.
+d = defaultdict(int)  # Defaults to zero when key not found.
+print(d[0])  # 0
 
+
+# Sum of the digits of an integer
+num = 57
+sum_of_digits = sum(map(int, str(num)))  # A list is created with the digits, then summed up.
+print(sum_of_digits)
+
+
+# Check if two numbers are zero easily.
+a, b = 0, 0
+print(a == b == 0)  # True

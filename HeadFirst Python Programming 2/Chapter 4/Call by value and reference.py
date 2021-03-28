@@ -1,47 +1,58 @@
-# Lists, dictionaries, and sets (being mutable) are always passed into a function by reference—
-# any changes made to the variable’s data structure within the function’s suite are reflected in
-# the calling code. The data is mutable, after all.
+# In Python, we don't have the concept of 'pass by value' or 'pass by reference'. Instead, we have immutable or
+# mutable arguments passed to the function. If we pass immutable objects like integer or string to function and try
+# to update their value, their original value will not be updated instead a new variable will be created with updated
+# value at new memory address and the calling code only knows the original address.
+# If we pass mutable objects like list or dictionary and try to update them,
+# their original value will be updated at the same memory address itself.
 
-# Strings, integers, and tuples (being immutable) are always passed into a function by value—
-# any changes to the variable within the function are private to the function and are not
-# reflected in the calling code. As the data is immutable, it cannot change.
+# This concept is slightly new in Python.
+# https://www.youtube.com/watch?v=ijXMGpoMkhQ&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=37
 
-def double(arg):
-    print('Before: ', arg)
-    arg = arg * 2
-    print('After: ', arg)
+def double(arg):  # Arg too will point to same memory location as num.
+    print('Before: ', arg, id(arg))
+    arg = arg * 2  # Now arg will point to some new memory location holding the new value.
+    print('After: ', arg, id(arg))
 
 
 def change(arg):
-    print('Before: ', arg)
+    print('Before: ', arg, id(arg))
     arg.append('More data')
-    print('After: ', arg)
+    print('After: ', arg, id(arg))  # As list is only modified internally, address wont change.
 
 
-num = 10
+def replaceList(arg):
+    print('Before: ', arg, id(arg))
+    arg = [1, 2, 3]
+    print('After: ', arg, id(arg))
+
+
+num = 10  # num will point to some memory.
+print('Before: ', num, id(num))
 double(num)
-# Before: 10
-# After: 20
-print(num)  # 10. This straightforward, integer is passed by value.
+print('After: ', num, id(num))  # 10. Num is always pointing to this value only, so no change.
+print('------------------------------------')
 
 saying = 'Hello '
+print('Before: ', saying, id(saying))
 double(saying)
-# Before: Hello
-# After: Hello Hello
-print(saying)  # 'Hello '. This straightforward, string is passed by value. (Remember that in java string is by referen)
+print('After: ', saying, id(saying))
+print(saying)  # 'Hello '. Same logic as num.
+print('------------------------------------')
 
 numbers = [42, 256, 16]
-double(numbers)
-# Before: [42, 256, 16]
-# After: [42, 256, 16, 42, 256, 16]
-print(numbers)  # [42, 256, 16]. You would think that as list is passed by reference, list changes would be retained, but they are not. Here is the reason below.
-# Executing the code arg*2 creates a new value, which is assigned a new object reference, which is then assigned to the
-# arg variable, overwriting the previous object reference stored in arg in the function’s suite. However, the “old”
-# object reference still exists in the calling code and its value has’t changed. so the shell sees the original list,
-# not the new doubled list created in Tom’s code.
+print('Before: ', numbers, id(numbers))
+replaceList(numbers)
+print('After: ', numbers, id(numbers))
+print(numbers)  # [42, 256, 16].
+# New object reference is assigned to the arg variable when assigned
+# overwriting the previous object reference stored in arg in the function’s call. However, the “old”
+# object reference still exists in the calling code and the value in that address
+# has’t changed. so python sees the original list, not the new list created in the function.
 
-numbers = [42, 256, 16]
+print('------------------------------------')
+
+numbers = [42, 256, 16]  # List will point to some memory.
+print('Before: ', numbers, id(numbers))
 change(numbers)
-# Before: [42, 256, 16]
-# After: [42, 256, 16, 'More data']
-print(numbers)  # [42, 256, 16, 'More data']. This is straightforward, as list is passed, its pass by reference.
+print('After: ', numbers, id(numbers))
+print(numbers)  # [42, 256, 16, 'More data'].
