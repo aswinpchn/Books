@@ -40,3 +40,15 @@ for i in sorted(key_value):
 print(' ')
 for i in sorted(key_value, key=key_value.get):  # for sorted, we are giving a parameter key, which is the value.
     print((i, key_value[i]), end=" ")  # (1, 2) (5, 12) (6, 18) (4, 24) (2, 56) (3, 323)
+
+# Dictionary as LinkedHashMap
+# Generally you would think that insertion order is not maintained in Python.
+# But from 3+ Python dict behaves as ordered dict. So, the insertion order is maintained while iterating,
+# at the same time O(1) search
+# https://www.geeksforgeeks.org/linkedhashmap-class-java-examples/
+# https://stackoverflow.com/questions/60848/how-do-you-retrieve-items-from-a-dictionary-in-the-order-that-theyre-inserted/51777540#51777540
+
+
+# Delete from dictionary while iterating
+# https://www.geeksforgeeks.org/python-delete-items-from-dictionary-while-iterating/
+

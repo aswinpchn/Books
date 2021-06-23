@@ -64,3 +64,9 @@ print(sum_of_digits)
 # Check if two numbers are zero easily.
 a, b = 0, 0
 print(a == b == 0)  # True
+
+# Reverse a word using slicing
+word = 'aswin'
+print(word[-1:-len(word)-1:-1])  # Start index: -1 End index: -6 Step: -1
+print(word[::-1])  # This is the best solution as per stackoverflow. But I don't know how it's working
+# https://stackoverflow.com/questions/931092/reverse-a-string-in-python

@@ -8,5 +8,6 @@ q = deque()  # When inserting, it just goes in the order as you put.
 q.append(1)
 q.append(2)
 q.append(3)
-print(q)  # can be easily printed
-print(q.popleft())  # If you do just pop. It will behave as stack.
+print(q)  # can be easily printed [1, 2, 3]
+print(q.popleft())  # 1 is popped off. Which is the oldest, so this is a queue
+print(q.pop()) # 3 is popped. Which is the newest. So this behaves as a stack.
