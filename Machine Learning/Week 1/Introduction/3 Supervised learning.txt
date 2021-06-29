@@ -1,0 +1,17 @@
+Supervised learning:
+
+  Supervised learning is a type of machine learning in which we give the input and the output and we ask the Computer to predict the result of the any new input.
+
+  The thing with supervised learning is that we give the input, and corresponding output, based on which the future response of the computer will be.
+
+  Eg: Given set of prices of houses based on sqft, predict the cost for given sqft house, Given tumor size predict if the cancer is malignant or not.
+
+
+Type of ML problem
+  * Regression problem
+    Problems where you have to return the result in a continuous value. (Predict house value)
+  * Classification
+    Problems where you have return result in form of one of the given options. (Predict if cancer malignant or not).
+
+Attributes
+  For simple ML problems there can be one or two attributes based on which the result can be predicted, but for complex real world problems, there will be normally many number of attributed based on which output can be decided.

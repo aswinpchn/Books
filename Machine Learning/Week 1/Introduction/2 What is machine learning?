@@ -1,0 +1,7 @@
+Basic definition: Machine learning is the science of getting computer to learn, so that they can act. All these without explicitly being programmed.
+
+Advanced definition: A computer program is said to learn from experience E in a given task T and some performance measure P, if its performance on Task T as measured by P improves with experience E.
+
+There are two types of Machine learning
+1. Supervised learning
+2. Unsupervised learning

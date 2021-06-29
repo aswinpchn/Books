@@ -1,0 +1,15 @@
+In supervised learning we have lables for the data based on which future predictions can be done.
+In unsupervised learning, things may not be labelled.
+
+Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don't necessarily know the effect of the variables.
+
+We can derive this structure by clustering the data based on relationships among the variables in the data.
+
+Clustering: So one common type of findings in unsupervised learning is clustering, where things are clustered as per the input.
+Example: Social network analysis, Market segmentation, News clustering by google news.
+
+Cocktail party algorithm
+
+  This is an algorithm for a common problem of seperating voices when there are more than one voice in any given audio recording. At first doing this may seem like a daunting task, but due to good, and long research  in this area, this can be done easily.
+
+  For solving this problem, it can be done in a single line using 'Octave' programming language (Octave is a high level numerical programming language used in machine learning field).

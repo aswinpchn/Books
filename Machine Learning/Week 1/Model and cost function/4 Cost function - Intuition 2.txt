@@ -1,0 +1,24 @@
+This is a followup for Cost function we saw in the last two sections.
+
+In the last section, we kept c as 0, so that we only had y = mx, and thus the diagram we had at the end were a 2D thing.
+
+In this section, we are not keeping c as 0, so we have y = mx + c. So, for visualizing this thing proprly we need a 3D thing.
+
+We have this data set. (Image 10)
+First, y = mx + c
+We have two variables now, m and c. When we had one variable only (m) in last section, we finally got a 2D picture (Hyperbola). As we have two variables here, we will get a 3D one. (Image 11)
+
+Instead of the 3D graphs, we can use Controur plot/graphs to visuale the same thing in a better way. Countour's are used a good amount in Data Science. (Image 12). Each circle in the contour plot is formed by different m, and c values. (Images 13)
+
+A contour plot is a graphical technique for representing a 3-dimensional surface by plotting constant z slices, called contours, on a 2-dimensional format.
+
+Case 1: m = -.15 and c = 800
+  Image 14
+
+Case 2: m = 0 and c = 360
+  Image 15
+
+Case 3: m = 0.15 and c = 300
+  Image 16
+  This seems to be like the closeset to the actual answer, as this is closest to most of the data points.
+

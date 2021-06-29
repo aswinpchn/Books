@@ -1,0 +1,12 @@
+Training set: Training set is one which can be used to prdict future results.
+
+See image 1.
+
+Example: 
+  Given the prices of houses per sqft, predict the price of given house.
+
+  Hypothesis (h) (Also can be called as Theorem) in the example: Hypothesis is a function which takes an input (x) (Size of house) and gives output (y) (Estimated price).
+
+  Here in this example let's consider that the output can be predicted with a simple straight line. And also the prediction is based on single factor. So we can call this as 'Linear regression with single variable' or 'Univariate linear regression'.  (Do note that in complex problem, there will be multiple variables, also the line need not be linear, it can be complex curve.)
+
+  See image 2.

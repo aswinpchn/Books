@@ -1,0 +1,6 @@
+Starting from 50 years back, computers can be started to solve fixed problems that can be programmed.
+
+Then people started to think why can't computers think them selves like humans and solve even more complex problems. That's when the computers were expected to learn like how humans do and become better in a task. This is the history of machine learning.
+
+Examples of ML: Learning from Web clicks, Learning from Medical records, Autonomus helicopter, Handwriting recognition, Natural Language Processing (Computer understanding human's speech), Computer Vision (Computer understanding/learning from images) etc.
+

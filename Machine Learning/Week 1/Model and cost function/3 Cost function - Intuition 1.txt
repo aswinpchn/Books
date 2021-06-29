@@ -1,0 +1,30 @@
+This video is a follow up of the cost function we saw in the last video.
+
+Remember the equation we saw last video, y = mx + c, to simplyfying the understanding the squared error function, we keep c as zero. So we only have y = mx.
+
+  See image 5
+
+Now we are experimenting the squared error function we have.
+  
+  We have 3 data points (1, 1), (2, 2), and (3, 3)
+  First, y = mx + c
+  Then, y = mx (We decide to keep c as zero for simplication)
+  
+  Case 1:
+    We experiment with m as 1.
+    The squared error function will gives us 0. This means that there is no error in our prediction. No deviation from the actual data points. (Image 6)
+
+  Case 2:
+    We experiment with m as 0.5.
+    The squared error function will gives us 0.58 (Image 7)
+
+  Case 3:
+    We experiment with m as 0.
+    The squared error function will gives us 2.3. We see that error keeps expanding.  (Image 8)
+
+  For the three cases, we understand that m as 1 is the best possible prediction for this data set. As that is giving us the least possible error in the squared error function.
+
+  Final analysis: 
+    If we see the pattern, it come to a sort of 1D hyperbola.
+    Image 9
+  

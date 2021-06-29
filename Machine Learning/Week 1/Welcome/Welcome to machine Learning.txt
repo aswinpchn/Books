@@ -1,0 +1,1 @@
+Machine learning is the science of getting computer to learn, so that they can act. All these without explicitly being programmed.
